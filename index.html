@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML TUTORIAL</title>
+    <style>
+        @font-face {
+            font-family: Robotoblack;
+            src: url("./assets/fonts/Roboto-Black.ttf");
+        }
+        body{
+            font-family:Robotoblack ;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <h1>The Planet Earth</h1>
+    </header>
+    <!-- header end -->
+    <!-- nav start -->
+    <nav class="main">
+      <ul>
+        <li><a href="">Home</a></li>
+      </ul>
+      <ul>
+        <li><a href="">About</a></li>
+      </ul>
+      <ul>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- nav end -->
+
+    <!-- section for img,vdo,audio start -->
+    <section>
+      <div class="nature_image">
+        <h3>This is my <em>1st</em> page</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          nulla alias quae, voluptatem corporis aliquid dolor sit omnis
+          accusantium debitis magnam consectetur tempore ipsam, optio libero
+          deleniti dolore minus quasi cupiditate quaerat ipsa voluptas corrupti?
+          Dolores dolore porro sint tenetur eaque ad laborum asperiores fuga!
+          Voluptates, quo. Atque vitae ipsum, reprehenderit nesciunt, nostrum
+          dicta repellat quos inventore, quisquam recusandae accusantium!
+        </p>
+        <img src="./assets/images/nature_pic.jpg" alt="landing_page_pic" />
+      </div>
+      <div class="nature_video">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti id
+          voluptatem veritatis? Amet nemo eos aut neque obcaecati ratione
+          laboriosam, ad maxime autem recusandae, velit non blanditiis
+          doloremque asperiores quibusdam officia sequi atque sit consequuntur
+          hic? Natus ut provident ipsum odit sequi perspiciatis aperiam, beatae
+          numquam ipsa iusto autem dignissimos maiores praesentium inventore
+          quidem dolore! At nobis inventore totam vel autem, tempore, in itaque
+          asperiores hic illum, veritatis nulla esse veniam sapiente animi.
+          Reprehenderit culpa ipsa in dolor? Atque, totam.
+        </p>
+        <p>
+          The earth has its music for those <strong> who will listen</strong>
+        </p>
+        <!-- <video src="./assets/videos/nature_vdo.mp4" width="800px"></video> -->
+        <video width="320" height="240" controls>
+            <source src="./assets/videos/nature_vdo.mp4" type="video/mp4">
+            
+          </video>
+      </div>
+      <div class="audio">
+        <!-- <audio src="./assets/Audio/nature_audio.mp3"></audio> -->
+        <audio controls>
+            <!-- <source src="horse.ogg" type="audio/ogg"> -->
+            <source src="./assets/Audio/nature_audio.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+    </section>
+    <!-- section component end -->
+    <!-- article attribute start -->
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus
+        facilis reprehenderit nesciunt et aut impedit nemo, quam tenetur
+        deleniti laudantium recusandae
+        <strong>deleniti laudantium recusandae</strong> nihil illum ipsa ex,
+        consectetur magnam ab cupiditate accusamus! Quam sapiente ex
+        <em>nam ratione animi necessitatibus</em> nam ratione animi
+        necessitatibus, quod explicabo.
+      </p>
+    </article>
+    <!-- article end -->
+    <!-- aside start -->
+    <aside>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+        temporibus asperiores at quaerat dicta pariatur qui esse! Itaque ipsa
+        ullam nulla beatae quae? Nobis officiis dignissimos iste praesentium
+        corrupti, quo distinctio adipisci, molestiae ipsam illum optio
+        laboriosam quis architecto sunt.
+      </p>
+    </aside>
+    <!-- aside end -->
+
+    <!-- form atart -->
+
+    <form action="Submit form">
+      <label for="Fname">First Name:</label> <br />
+      <input type="text" name="Fname" id="Fname" /> <br />
+      <label for="Lname">Last Name:</label> <br />
+      <input type="text" name="Lname" id="Lname" /> <br />
+      <label for="Email">Email id:</label> <br />
+      <input type="email" name="Email" id="Email" /> <br />
+      <label for="Password">Password</label> <br />
+      <input type="password" name="password" id="password" /> <br />
+      <label for="choose destination">Choose a destination:</label>
+      <select name="destination" id="choose-destination">
+        <option value="">--Please choose a destination--</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Japan">Japan</option>
+        <option value="China">China</option>
+        <option value="Canada">Canada</option>
+      </select>
+      <br />
+      <br />
+      <label for="note">Give a note:</label>
+
+      <textarea name="note" id="note" row="5" column="33">
+Please write a sutitable note </textarea
+      >
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+    <!-- form end -->
+    <!-- tbale start -->
+    <table>
+      <tr>
+        <th>Destination</th>
+        <th>Country</th>
+        <th>Best Time To Visit</th>
+      </tr>
+      <tr>
+        <td>Mumbai</td>
+        <td>India</td>
+        <td>January</td>
+      </tr>
+      <tr>
+        <td>Wahington</td>
+        <td>USA</td>
+        <td>March</td>
+      </tr>
+      <tr>
+        <td>Tokyo</td>
+        <td>Japan</td>
+        <td>April</td>
+      </tr>
+      <tr>
+        <td>Beijing</td>
+        <td>China</td>
+        <td>April</td>
+      </tr>
+      <tr>
+        <td>Ottawa</td>
+        <td>Canada</td>
+        <td>January</td>
+      </tr>
+    </table>
+    <!-- table end -->
+
+    <!-- footer start -->
+    <footer>
+      <small
+        >Copyright © 2023 Football History Archives. All Rights Reserved</small
+      >
+    </footer>
+  </body>
+</html>
